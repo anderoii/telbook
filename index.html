@@ -1,15 +1,59 @@
 <head>
     <title> Телефоний справочник</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1> учитель</h1>
+<body>  
   <center>
+    <h1> учитель</h1>
+    
     <form method="get" action="processor.php">
-<input type="text" name="cename" value="" placeholder="строка1">
-<input type="text" name="cenumber" value="" placeholder="строка2">
-<input type="submit">
-<input type="button" value="ок">
+        <label for="cename">имя</label>
+        
+        <input type="text" name="cename" id="test"  value="" placeholder="строка1">
+        <br>
+        <label for="cenumber">фамилия</label>
+        <input type="text" name="cenumber" id="test2" value="" placeholder="строка2">
+        <br>
+        <input type="submit">
+        </form>
+        <hr>
+<form method="get" action="processor.php">
+        <input type="button" value="ок">
+        <br>
+        <input type="reset">
+        <br>
+        
+        <input type="checkbox" value ="text6">
+        <label for="cenumber">тест3</label>
+        <br>
+        
+        <input type="checkbox" value ="text5">
+        <label for="cenumber">тест6</label>
+        <br>
+        
+        <input type="radio" name="cename3" value ="text">
+        <label for="cenumber">тест7</label>
+        <br>
+        <input type="radio" name="cename3" value ="tex4">
+        <label for="cenumber">тест8</label>
+        <br>
+        <input type="file" name="cename4">
+        <br>
+        <input type="hidden" valie="text8">
+        <br>
+        <input type="date" name="cename5">
+        <br>
+        <input type="color" name="cename5">
+        <br>
+        <textarea rows="7" cols="200" name="cename90">окно</textarea>
+        <br>
+        <select name="cename88" multiple>
+            <option value="1">тестуємо</option>
+            <option value="2">тестуємо2</option>
+            <option value="3" selected>тестуємо3</option>
+            <option value="4">тестуємо4</option>
+        </select>
     </form>
 </center>
   
